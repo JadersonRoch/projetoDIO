@@ -110,7 +110,6 @@ def verificar_conta_usuario(usuario_id):
     return usuario_id in contas_banco and len(contas_banco[usuario_id]) > 0    
 
 #iniciando o codigo para excução das funções
-#menu() # Chamada da função para exibir o menu
 
 usuarios_banco = {}  # armazenamento de usuários
 contas_banco = {}    # armazenamento de contas
